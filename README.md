@@ -18,7 +18,7 @@ If user inputs 1:
 - Ask user if they want to also export cleaned data to another file in csv format. 
 - If yes, ask them to input the file name, and export the file with that file name
 - Else overwrite current file. 
-- Data should be read from the file provided by Huy Quang Vu.
+- Data should be read from the file `diabetes_data.csv`
 
 Definition of clean data: if a row contains a cell that contains a malformed data type, **REMOVE** that row from the file.
 For example: row 2, column 2 (age) if data is "abc", then row 1 should be removed.
@@ -58,6 +58,4 @@ If any column is missing, it should be failed to read.
 ## Notes:
 - You can add any library you want (Ex visualization lib: `Matplotlib`, `Seaborn`, `Bokeh`, `Plotly`, etc.)
 - Any supporting tool is welcome (StackOverFlow, ChatGPT, etc.)
-- You must hand in you assignment *9 days* (max) after you finish your last assignment of CS50. 
-- Unit Tests are not required, however highly recommended. If you're lazy, you can list out which function can be tested, and describe how you are going to test them.
-- Dataset will be provided by Huy Quang Vu - retrieved from: https://www.kaggle.com/datasets/rabieelkharoua/diabetes-health-dataset-analysis
+- Dataset was retrieved from: https://www.kaggle.com/datasets/rabieelkharoua/diabetes-health-dataset-analysis
